@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0da9feab-a547-40f0-8738-e90c1b3f9af0" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Casper" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#gossipNeighbors#0;class#Main#0" expanded="false" />
+                <element signature="method#gossipPublicAccount#0;class#Main#0" expanded="false" />
+                <element signature="method#printValidators#0;class#Main#0" expanded="false" />
+                <element signature="method#printLocalRep#0;class#Main#0" expanded="false" />
+                <element signature="method#joinValidators#0;class#Main#0" expanded="false" />
+                <element signature="method#generateKey#0;class#Main#0" expanded="false" />
+                <element signature="method#generatePublicAccount#0;class#Main#0" expanded="false" />
+                <element signature="method#addNeighbor#0;class#Main#0" expanded="false" />
+                <element signature="method#mintBlock#0;class#Main#0" expanded="false" />
+                <element signature="method#printNeighbors#0;class#Main#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Checkpoint.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Checkpoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="783" column="28" lean-forward="false" selection-start-line="783" selection-start-column="28" selection-end-line="783" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#setNeighbors#0;class#Node#0" expanded="false" />
+                <element signature="method#addValidator#0;class#Node#0" expanded="false" />
+                <element signature="method#removeValidator#0;class#Node#0" expanded="false" />
+                <element signature="method#areYouUp#0;class#Node#0" expanded="false" />
+                <element signature="method#askNeighbors#0;class#Node#0" expanded="false" />
+                <element signature="method#tellNeighbors#0;class#Node#0" expanded="false" />
+                <element signature="method#broadcast#0;class#Node#0" expanded="false" />
+                <element signature="method#onReceive#0;class#Node#0" expanded="false" />
+                <element signature="method#check#0;class#Node#0" expanded="false" />
+                <element signature="method#mintRewardingBlock#0;class#Node#0" expanded="false" />
+                <element signature="method#mintSlashingBlock#0;class#Node#0" expanded="false" />
+                <element signature="method#onReceive#1;class#Node#0" expanded="false" />
+                <element signature="method#broadcast#1;class#Node#0" expanded="false" />
+                <element signature="method#check#1;class#Node#0" expanded="false" />
+                <element signature="method#askMainChain#0;class#Node#0" expanded="false" />
+                <element signature="method#askPublicKey#0;class#Node#0" expanded="false" />
+                <element signature="method#askPublicAccountKey#0;class#Node#0" expanded="false" />
+                <element signature="method#askPublicAccountDeposit#0;class#Node#0" expanded="false" />
+                <element signature="method#askJustifiedHeight#0;class#Node#0" expanded="false" />
+                <element signature="method#closeServer#0;class#Node#0" expanded="false" />
+                <element signature="method#getValidator#0;class#Node#0" expanded="false" />
+                <element signature="method#removeNeighbor#0;class#Node#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Block.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Block.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="96" column="5" lean-forward="true" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Block#1;class#Block#0" expanded="false" />
+                <element signature="method#setSlashing#0;class#Block#0" expanded="false" />
+                <element signature="method#setRewarding#0;class#Block#0" expanded="false" />
+                <element signature="method#isRoot#0;class#Block#0" expanded="false" />
+                <element signature="method#updateHash#0;class#Block#0" expanded="false" />
+                <element signature="method#sign#0;class#Block#0" expanded="false" />
+                <element signature="method#generateSignature#0;class#Block#0" expanded="false" />
+                <element signature="method#signed#0;class#Block#0" expanded="false" />
+                <element signature="method#toByteArray#0;class#Block#0" expanded="false" />
+                <element signature="method#toString#0;class#Block#0" expanded="false" />
+                <element signature="method#compareTo#0;class#Block#0" expanded="false" />
+                <element signature="method#bytesToHex#0;class#Block#0" expanded="false" />
+                <element signature="method#hexToBytes#0;class#Block#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Blockchain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Blockchain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>neighbors</find>
+      <find>me</find>
+      <find>ask</find>
+      <find>mainchain</find>
+      <find>mainChain</find>
+      <find>Message</find>
+      <find>localRep</find>
+      <find>checkpointTree</find>
+      <find>check</find>
+      <find>publicAccount</find>
+      <find>validatorFees</find>
+      <find>System.out.println</find>
+      <find>signature</find>
+      <find>gossipMainchain</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/IFunction.java" />
+        <option value="$PROJECT_DIR$/src/Function.java" />
+        <option value="$PROJECT_DIR$/src/RMIClasses/RMIFunctions.java" />
+        <option value="$PROJECT_DIR$/src/RMIClasses/RMIFunctionsImpl.java" />
+        <option value="$PROJECT_DIR$/src/SHA3/SHA3util.java" />
+        <option value="$PROJECT_DIR$/src/Signature/Main.java" />
+        <option value="$PROJECT_DIR$/src/Util/BytesUtil.java" />
+        <option value="$PROJECT_DIR$/src/Util/SHA3util.java" />
+        <option value="$PROJECT_DIR$/src/Chain.java" />
+        <option value="$PROJECT_DIR$/src/Validation.java" />
+        <option value="$PROJECT_DIR$/src/Blockchain.java" />
+        <option value="$PROJECT_DIR$/src/SlashingBlock.java" />
+        <option value="$PROJECT_DIR$/src/Request.java" />
+        <option value="$PROJECT_DIR$/src/Signature/DigitalSignature.java" />
+        <option value="$PROJECT_DIR$/src/Message.java" />
+        <option value="$PROJECT_DIR$/src/Transaction.java" />
+        <option value="$PROJECT_DIR$/src/Block.java" />
+        <option value="$PROJECT_DIR$/src/Checkpoint.java" />
+        <option value="$PROJECT_DIR$/src/Vote.java" />
+        <option value="$PROJECT_DIR$/src/ServerThread.java" />
+        <option value="$PROJECT_DIR$/src/Validator.java" />
+        <option value="$PROJECT_DIR$/src/Signature/KeyManagement.java" />
+        <option value="$PROJECT_DIR$/src/GossipThread.java" />
+        <option value="$PROJECT_DIR$/src/RMIFunctions.java" />
+        <option value="$PROJECT_DIR$/src/RMIFunctionsImpl.java" />
+        <option value="$PROJECT_DIR$/src/Node.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers ProjectPane="true" />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope">
+        <subPane subId="Production">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Casper" type="cbb8eebc:String" user="Casper" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Casper" type="cbb8eebc:String" user="Casper" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Casper" type="cbb8eebc:String" user="Casper" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Casper" type="cbb8eebc:String" user="Casper" />
+              <item name=".idea" type="cbb8eebc:String" user=".idea" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Casper" type="cbb8eebc:String" user="Casper" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Casper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Casper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Casper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Casper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Casper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Casper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Block" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="Casper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Casper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Checkpoint" type="1a9f42e2:ClassTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="61db50fb:ScratchProjectViewPane$MyPsiNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Casper" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Casper" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Signature" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Casper" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER,ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0da9feab-a547-40f0-8738-e90c1b3f9af0" name="Default" comment="" />
+      <created>1525079603325</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525079603325</updated>
+      <workItem from="1525079605192" duration="23231000" />
+      <workItem from="1525355315904" duration="36945000" />
+      <workItem from="1525763919984" duration="1485000" />
+      <workItem from="1525874868174" duration="1979000" />
+      <workItem from="1526156526945" duration="34064000" />
+      <workItem from="1526538744693" duration="4087000" />
+      <workItem from="1526742619556" duration="339000" />
+      <workItem from="1526898687441" duration="47000" />
+      <workItem from="1527511466868" duration="48000" />
+      <workItem from="1527671656072" duration="13397000" />
+      <workItem from="1527693556384" duration="27706000" />
+      <workItem from="1527852505475" duration="3407000" />
+      <workItem from="1527955493588" duration="26055000" />
+      <workItem from="1528209764496" duration="5266000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="178056000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19930555" sideWeight="0.44560358" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3114144" sideWeight="0.50278443" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21058823" sideWeight="0.4972156" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19930555" sideWeight="0.55439645" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282353" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24936387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24936387" sideWeight="0.5064695" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#gossipNeighbors#0;class#Main#0" expanded="false" />
+            <element signature="method#gossipPublicAccount#0;class#Main#0" expanded="false" />
+            <element signature="method#printValidators#0;class#Main#0" expanded="false" />
+            <element signature="method#printLocalRep#0;class#Main#0" expanded="false" />
+            <element signature="method#joinValidators#0;class#Main#0" expanded="false" />
+            <element signature="method#generateKey#0;class#Main#0" expanded="false" />
+            <element signature="method#generatePublicAccount#0;class#Main#0" expanded="false" />
+            <element signature="method#addNeighbor#0;class#Main#0" expanded="false" />
+            <element signature="method#mintBlock#0;class#Main#0" expanded="false" />
+            <element signature="method#printNeighbors#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Signature/KeyManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2415">
+          <caret line="161" column="24" lean-forward="true" selection-start-line="161" selection-start-column="24" selection-end-line="161" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="56" lean-forward="false" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setNeighbors#0;class#Node#0" expanded="false" />
+            <element signature="method#addValidator#0;class#Node#0" expanded="false" />
+            <element signature="method#removeValidator#0;class#Node#0" expanded="false" />
+            <element signature="method#areYouUp#0;class#Node#0" expanded="false" />
+            <element signature="method#askNeighbors#0;class#Node#0" expanded="false" />
+            <element signature="method#tellNeighbors#0;class#Node#0" expanded="false" />
+            <element signature="method#broadcast#0;class#Node#0" expanded="false" />
+            <element signature="method#onReceive#0;class#Node#0" expanded="false" />
+            <element signature="method#check#0;class#Node#0" expanded="false" />
+            <element signature="method#mintRewardingBlock#0;class#Node#0" expanded="false" />
+            <element signature="method#mintSlashingBlock#0;class#Node#0" expanded="false" />
+            <element signature="method#onReceive#1;class#Node#0" expanded="false" />
+            <element signature="method#broadcast#1;class#Node#0" expanded="false" />
+            <element signature="method#check#1;class#Node#0" expanded="false" />
+            <element signature="method#askMainChain#0;class#Node#0" expanded="false" />
+            <element signature="method#askPublicKey#0;class#Node#0" expanded="false" />
+            <element signature="method#askPublicAccountKey#0;class#Node#0" expanded="false" />
+            <element signature="method#askPublicAccountDeposit#0;class#Node#0" expanded="false" />
+            <element signature="method#askJustifiedHeight#0;class#Node#0" expanded="false" />
+            <element signature="method#closeServer#0;class#Node#0" expanded="false" />
+            <element signature="method#getValidator#0;class#Node#0" expanded="false" />
+            <element signature="method#removeNeighbor#0;class#Node#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Checkpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RMIFunctionsImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="69" lean-forward="false" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
+          <folding>
+            <element signature="method#onReceive#0;class#Validator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#gossipNeighbors#0;class#Main#0" expanded="false" />
+            <element signature="method#gossipPublicAccount#0;class#Main#0" expanded="false" />
+            <element signature="method#printValidators#0;class#Main#0" expanded="false" />
+            <element signature="method#printLocalRep#0;class#Main#0" expanded="false" />
+            <element signature="method#joinValidators#0;class#Main#0" expanded="false" />
+            <element signature="method#generateKey#0;class#Main#0" expanded="false" />
+            <element signature="method#generatePublicAccount#0;class#Main#0" expanded="false" />
+            <element signature="method#addNeighbor#0;class#Main#0" expanded="false" />
+            <element signature="method#mintBlock#0;class#Main#0" expanded="false" />
+            <element signature="method#printNeighbors#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="126" column="11" lean-forward="false" selection-start-line="126" selection-start-column="11" selection-end-line="126" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setNeighbors#0;class#Node#0" expanded="false" />
+            <element signature="method#addValidator#0;class#Node#0" expanded="false" />
+            <element signature="method#removeValidator#0;class#Node#0" expanded="false" />
+            <element signature="method#areYouUp#0;class#Node#0" expanded="false" />
+            <element signature="method#askNeighbors#0;class#Node#0" expanded="false" />
+            <element signature="method#tellNeighbors#0;class#Node#0" expanded="false" />
+            <element signature="method#broadcast#0;class#Node#0" expanded="false" />
+            <element signature="method#onReceive#0;class#Node#0" expanded="false" />
+            <element signature="method#check#0;class#Node#0" expanded="false" />
+            <element signature="method#mintRewardingBlock#0;class#Node#0" expanded="false" />
+            <element signature="method#mintSlashingBlock#0;class#Node#0" expanded="false" />
+            <element signature="method#onReceive#1;class#Node#0" expanded="false" />
+            <element signature="method#broadcast#1;class#Node#0" expanded="false" />
+            <element signature="method#check#1;class#Node#0" expanded="false" />
+            <element signature="method#askMainChain#0;class#Node#0" expanded="false" />
+            <element signature="method#askPublicKey#0;class#Node#0" expanded="false" />
+            <element signature="method#askPublicAccountKey#0;class#Node#0" expanded="false" />
+            <element signature="method#askPublicAccountDeposit#0;class#Node#0" expanded="false" />
+            <element signature="method#askJustifiedHeight#0;class#Node#0" expanded="false" />
+            <element signature="method#closeServer#0;class#Node#0" expanded="false" />
+            <element signature="method#getValidator#0;class#Node#0" expanded="false" />
+            <element signature="method#removeNeighbor#0;class#Node#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Block.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="104" column="41" lean-forward="true" selection-start-line="104" selection-start-column="41" selection-end-line="104" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Signature/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2085">
+          <caret line="141" column="14" lean-forward="false" selection-start-line="141" selection-start-column="14" selection-end-line="141" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Signature/DigitalSignature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/BytesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="46" column="19" lean-forward="true" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Signature/KeyManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="122" column="39" lean-forward="false" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="73" column="58" lean-forward="false" selection-start-line="73" selection-start-column="58" selection-end-line="73" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#gossipNeighbors#0;class#Main#0" expanded="false" />
+            <element signature="method#gossipPublicAccount#0;class#Main#0" expanded="false" />
+            <element signature="method#printValidators#0;class#Main#0" expanded="false" />
+            <element signature="method#printLocalRep#0;class#Main#0" expanded="false" />
+            <element signature="method#joinValidators#0;class#Main#0" expanded="false" />
+            <element signature="method#generateKey#0;class#Main#0" expanded="false" />
+            <element signature="method#generatePublicAccount#0;class#Main#0" expanded="false" />
+            <element signature="method#addNeighbor#0;class#Main#0" expanded="false" />
+            <element signature="method#mintBlock#0;class#Main#0" expanded="false" />
+            <element signature="method#printNeighbors#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1665">
+          <caret line="289" column="24" lean-forward="false" selection-start-line="289" selection-start-column="24" selection-end-line="289" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setNeighbors#0;class#Node#0" expanded="false" />
+            <element signature="method#addValidator#0;class#Node#0" expanded="false" />
+            <element signature="method#removeValidator#0;class#Node#0" expanded="false" />
+            <element signature="method#areYouUp#0;class#Node#0" expanded="false" />
+            <element signature="method#askNeighbors#0;class#Node#0" expanded="false" />
+            <element signature="method#tellNeighbors#0;class#Node#0" expanded="false" />
+            <element signature="method#broadcast#0;class#Node#0" expanded="false" />
+            <element signature="method#onReceive#0;class#Node#0" expanded="false" />
+            <element signature="method#check#0;class#Node#0" expanded="false" />
+            <element signature="method#mintRewardingBlock#0;class#Node#0" expanded="false" />
+            <element signature="method#mintSlashingBlock#0;class#Node#0" expanded="false" />
+            <element signature="method#onReceive#1;class#Node#0" expanded="false" />
+            <element signature="method#broadcast#1;class#Node#0" expanded="false" />
+            <element signature="method#check#1;class#Node#0" expanded="false" />
+            <element signature="method#askMainChain#0;class#Node#0" expanded="false" />
+            <element signature="method#askPublicKey#0;class#Node#0" expanded="false" />
+            <element signature="method#askPublicAccountKey#0;class#Node#0" expanded="false" />
+            <element signature="method#askPublicAccountDeposit#0;class#Node#0" expanded="false" />
+            <element signature="method#askJustifiedHeight#0;class#Node#0" expanded="false" />
+            <element signature="method#closeServer#0;class#Node#0" expanded="false" />
+            <element signature="method#getValidator#0;class#Node#0" expanded="false" />
+            <element signature="method#removeNeighbor#0;class#Node#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Block.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="93" column="52" lean-forward="false" selection-start-line="93" selection-start-column="52" selection-end-line="93" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="method#onReceive#0;class#Validator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Signature/KeyManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="122" column="39" lean-forward="true" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#gossipNeighbors#0;class#Main#0" expanded="false" />
+            <element signature="method#gossipPublicAccount#0;class#Main#0" expanded="false" />
+            <element signature="method#printValidators#0;class#Main#0" expanded="false" />
+            <element signature="method#printLocalRep#0;class#Main#0" expanded="false" />
+            <element signature="method#joinValidators#0;class#Main#0" expanded="false" />
+            <element signature="method#generateKey#0;class#Main#0" expanded="false" />
+            <element signature="method#generatePublicAccount#0;class#Main#0" expanded="false" />
+            <element signature="method#addNeighbor#0;class#Main#0" expanded="false" />
+            <element signature="method#mintBlock#0;class#Main#0" expanded="false" />
+            <element signature="method#printNeighbors#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setNeighbors#0;class#Node#0" expanded="false" />
+            <element signature="method#addValidator#0;class#Node#0" expanded="false" />
+            <element signature="method#removeValidator#0;class#Node#0" expanded="false" />
+            <element signature="method#areYouUp#0;class#Node#0" expanded="false" />
+            <element signature="method#askNeighbors#0;class#Node#0" expanded="false" />
+            <element signature="method#tellNeighbors#0;class#Node#0" expanded="false" />
+            <element signature="method#broadcast#0;class#Node#0" expanded="false" />
+            <element signature="method#onReceive#0;class#Node#0" expanded="false" />
+            <element signature="method#check#0;class#Node#0" expanded="false" />
+            <element signature="method#mintRewardingBlock#0;class#Node#0" expanded="false" />
+            <element signature="method#mintSlashingBlock#0;class#Node#0" expanded="false" />
+            <element signature="method#onReceive#1;class#Node#0" expanded="false" />
+            <element signature="method#broadcast#1;class#Node#0" expanded="false" />
+            <element signature="method#check#1;class#Node#0" expanded="false" />
+            <element signature="method#askMainChain#0;class#Node#0" expanded="false" />
+            <element signature="method#askPublicKey#0;class#Node#0" expanded="false" />
+            <element signature="method#askPublicAccountKey#0;class#Node#0" expanded="false" />
+            <element signature="method#askPublicAccountDeposit#0;class#Node#0" expanded="false" />
+            <element signature="method#askJustifiedHeight#0;class#Node#0" expanded="false" />
+            <element signature="method#closeServer#0;class#Node#0" expanded="false" />
+            <element signature="method#getValidator#0;class#Node#0" expanded="false" />
+            <element signature="method#removeNeighbor#0;class#Node#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Block.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Checkpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="method#onReceive#0;class#Validator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IFunction.java" />
+    <entry file="file://$PROJECT_DIR$/src/Function.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.rmi/sun/rmi/transport/tcp/TCPTransport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="687" column="0" lean-forward="false" selection-start-line="687" selection-start-column="0" selection-end-line="687" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chain.java" />
+    <entry file="file://$PROJECT_DIR$/src/Util/BytesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="46" column="19" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Signature/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2085">
+          <caret line="141" column="14" lean-forward="false" selection-start-line="141" selection-start-column="14" selection-end-line="141" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Validation.java" />
+    <entry file="file://$PROJECT_DIR$/src/SlashingBlock.java" />
+    <entry file="file://$PROJECT_DIR$/src/Util/SHA3util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#sign#0;class#Request#0" expanded="false" />
+            <element signature="method#signed#0;class#Request#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Signature/DigitalSignature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="107" column="28" lean-forward="false" selection-start-line="107" selection-start-column="28" selection-end-line="107" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="63" lean-forward="false" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="103" column="35" lean-forward="false" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-826">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="method#onReceive#0;class#Validator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Signature/KeyManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="55" column="74" lean-forward="false" selection-start-line="55" selection-start-column="74" selection-end-line="55" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GossipThread.java" />
+    <entry file="file://$PROJECT_DIR$/src/ServerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Checkpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Block.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="96" column="5" lean-forward="true" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Block#1;class#Block#0" expanded="false" />
+            <element signature="method#setSlashing#0;class#Block#0" expanded="false" />
+            <element signature="method#setRewarding#0;class#Block#0" expanded="false" />
+            <element signature="method#isRoot#0;class#Block#0" expanded="false" />
+            <element signature="method#updateHash#0;class#Block#0" expanded="false" />
+            <element signature="method#sign#0;class#Block#0" expanded="false" />
+            <element signature="method#generateSignature#0;class#Block#0" expanded="false" />
+            <element signature="method#signed#0;class#Block#0" expanded="false" />
+            <element signature="method#toByteArray#0;class#Block#0" expanded="false" />
+            <element signature="method#toString#0;class#Block#0" expanded="false" />
+            <element signature="method#compareTo#0;class#Block#0" expanded="false" />
+            <element signature="method#bytesToHex#0;class#Block#0" expanded="false" />
+            <element signature="method#hexToBytes#0;class#Block#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Blockchain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RMIFunctionsImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-466">
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RMIFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="783" column="28" lean-forward="false" selection-start-line="783" selection-start-column="28" selection-end-line="783" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setNeighbors#0;class#Node#0" expanded="false" />
+            <element signature="method#addValidator#0;class#Node#0" expanded="false" />
+            <element signature="method#removeValidator#0;class#Node#0" expanded="false" />
+            <element signature="method#areYouUp#0;class#Node#0" expanded="false" />
+            <element signature="method#askNeighbors#0;class#Node#0" expanded="false" />
+            <element signature="method#tellNeighbors#0;class#Node#0" expanded="false" />
+            <element signature="method#broadcast#0;class#Node#0" expanded="false" />
+            <element signature="method#onReceive#0;class#Node#0" expanded="false" />
+            <element signature="method#check#0;class#Node#0" expanded="false" />
+            <element signature="method#mintRewardingBlock#0;class#Node#0" expanded="false" />
+            <element signature="method#mintSlashingBlock#0;class#Node#0" expanded="false" />
+            <element signature="method#onReceive#1;class#Node#0" expanded="false" />
+            <element signature="method#broadcast#1;class#Node#0" expanded="false" />
+            <element signature="method#check#1;class#Node#0" expanded="false" />
+            <element signature="method#askMainChain#0;class#Node#0" expanded="false" />
+            <element signature="method#askPublicKey#0;class#Node#0" expanded="false" />
+            <element signature="method#askPublicAccountKey#0;class#Node#0" expanded="false" />
+            <element signature="method#askPublicAccountDeposit#0;class#Node#0" expanded="false" />
+            <element signature="method#askJustifiedHeight#0;class#Node#0" expanded="false" />
+            <element signature="method#closeServer#0;class#Node#0" expanded="false" />
+            <element signature="method#getValidator#0;class#Node#0" expanded="false" />
+            <element signature="method#removeNeighbor#0;class#Node#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#gossipNeighbors#0;class#Main#0" expanded="false" />
+            <element signature="method#gossipPublicAccount#0;class#Main#0" expanded="false" />
+            <element signature="method#printValidators#0;class#Main#0" expanded="false" />
+            <element signature="method#printLocalRep#0;class#Main#0" expanded="false" />
+            <element signature="method#joinValidators#0;class#Main#0" expanded="false" />
+            <element signature="method#generateKey#0;class#Main#0" expanded="false" />
+            <element signature="method#generatePublicAccount#0;class#Main#0" expanded="false" />
+            <element signature="method#addNeighbor#0;class#Main#0" expanded="false" />
+            <element signature="method#mintBlock#0;class#Main#0" expanded="false" />
+            <element signature="method#printNeighbors#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jar_files (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Casper</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>javax.xml.bind</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
